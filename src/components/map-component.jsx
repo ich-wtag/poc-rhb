@@ -6,6 +6,8 @@ import { Trains } from "../data/trains.json";
 import TrainIcon from "../assets/icons/marked-train.svg";
 import StationIcon from "../assets/icons/station.svg";
 import MarkerComponent from "./ui/marker";
+import StationRoutes from "./Station-Route/station-routes";
+import { Sheet, SheetTrigger } from "@/components/ui/sheet";
 
 const MapComponent = () => {
   const accessToken = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN;
@@ -33,17 +35,25 @@ const MapComponent = () => {
           longitude={station.longitude}
           latitude={station.latitude}
           Icon={StationIcon}
-        ></MarkerComponent>
+        >
+          <div> {station.name} </div>
+        </MarkerComponent>
       ))}
 
       {trains.map((train) => (
-        <MarkerComponent
-          key={train.trainNumber}
-          classProps={"cursor-pointer"}
-          longitude={train.location.longitude}
-          latitude={train.location.latitude}
-          Icon={TrainIcon}
-        ></MarkerComponent>
+        <Sheet asChild className="my-class">
+          <SheetTrigger>
+            <MarkerComponent
+              classProps={"cursor-pointer"}
+              longitude={train.location.longitude}
+              latitude={train.location.latitude}
+              Icon={TrainIcon}
+            >
+              <div> {train.trainNumber} </div>
+            </MarkerComponent>
+          </SheetTrigger>
+          <StationRoutes />
+        </Sheet>
       ))}
     </Map>
   );

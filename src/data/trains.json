@@ -568,26 +568,126 @@
       "departureTime": "2025-02-24T01:35:00Z",
       "delay": 2,
       "route": [
-        "S5",
-        "S9",
-        "S13",
-        "S17",
-        "S22",
-        "S26",
-        "S30",
-        "S34",
-        "S39",
-        "S44",
-        "S48",
-        "S53",
-        "S58",
-        "S63",
-        "S68",
-        "S72",
-        "S77",
-        "S82",
-        "S86",
-        "S90"
+        {
+          "station": "S5",
+          "latitude": 41.8781,
+          "longitude": -87.6298,
+          "arrivalTime": "2025-02-24T01:45:00Z"
+        },
+        {
+          "station": "S9",
+          "latitude": 47.6062,
+          "longitude": -122.3321,
+          "arrivalTime": "2025-02-24T02:00:00Z"
+        },
+        {
+          "station": "S13",
+          "latitude": 38.9072,
+          "longitude": -77.0369,
+          "arrivalTime": "2025-02-24T02:15:00Z"
+        },
+        {
+          "station": "S17",
+          "latitude": 36.1627,
+          "longitude": -86.7816,
+          "arrivalTime": "2025-02-24T02:30:00Z"
+        },
+        {
+          "station": "S22",
+          "latitude": 39.1031,
+          "longitude": -84.512,
+          "arrivalTime": "2025-02-24T02:45:00Z"
+        },
+        {
+          "station": "S26",
+          "latitude": 39.7392,
+          "longitude": -104.9903,
+          "arrivalTime": "2025-02-24T03:00:00Z"
+        },
+        {
+          "station": "S30",
+          "latitude": 34.0007,
+          "longitude": -81.0348,
+          "arrivalTime": "2025-02-24T03:15:00Z"
+        },
+        {
+          "station": "S34",
+          "latitude": 39.7686,
+          "longitude": -86.158,
+          "arrivalTime": "2025-02-24T03:30:00Z"
+        },
+        {
+          "station": "S39",
+          "latitude": 36.1627,
+          "longitude": -86.7816,
+          "arrivalTime": "2025-02-24T03:45:00Z"
+        },
+        {
+          "station": "S44",
+          "latitude": 44.428,
+          "longitude": -110.5885,
+          "arrivalTime": "2025-02-24T04:00:00Z"
+        },
+        {
+          "station": "S48",
+          "latitude": 36.7783,
+          "longitude": -119.4179,
+          "arrivalTime": "2025-02-24T04:15:00Z"
+        },
+        {
+          "station": "S53",
+          "latitude": 36.8529,
+          "longitude": -75.978,
+          "arrivalTime": "2025-02-24T04:30:00Z"
+        },
+        {
+          "station": "S58",
+          "latitude": 32.1656,
+          "longitude": -82.9001,
+          "arrivalTime": "2025-02-24T04:45:00Z"
+        },
+        {
+          "station": "S63",
+          "latitude": 40.7608,
+          "longitude": -111.891,
+          "arrivalTime": "2025-02-24T05:00:00Z"
+        },
+        {
+          "station": "S68",
+          "latitude": 42.8713,
+          "longitude": -112.4455,
+          "arrivalTime": "2025-02-24T05:15:00Z"
+        },
+        {
+          "station": "S72",
+          "latitude": 25.2342,
+          "longitude": -104.7152,
+          "arrivalTime": "2025-02-24T05:30:00Z"
+        },
+        {
+          "station": "S77",
+          "latitude": 28.7349,
+          "longitude": -117.6794,
+          "arrivalTime": "2025-02-24T05:45:00Z"
+        },
+        {
+          "station": "S82",
+          "latitude": 35.2361,
+          "longitude": -103.9689,
+          "arrivalTime": "2025-02-24T06:00:00Z"
+        },
+        {
+          "station": "S86",
+          "latitude": 47.7808,
+          "longitude": -84.9704,
+          "arrivalTime": "2025-02-24T06:15:00Z"
+        },
+        {
+          "station": "S90",
+          "latitude": 49.9327,
+          "longitude": -94.7679,
+          "arrivalTime": "2025-02-24T06:30:00Z"
+        }
       ],
       "location": { "latitude": 39.1031, "longitude": -84.512 },
       "status": "Delayed"

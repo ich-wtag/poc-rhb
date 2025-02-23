@@ -125,4 +125,5 @@ export {
   SheetFooter,
   SheetTitle,
   SheetDescription,
+  SheetOverlay,
 };
