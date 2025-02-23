@@ -1,0 +1,25 @@
+.train {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border-width: 1px;
+  gap: 10px;
+  padding: 3px;
+  border: 1px solid #00000026;
+}
+.train-name {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25.5px;
+  letter-spacing: 0px;
+  color: #1c1b1f;
+}
+.train-sub-name {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19.5px;
+  letter-spacing: 0%;
+  color: #000000;
+}
